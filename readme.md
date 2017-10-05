@@ -1,30 +1,8 @@
 # ![Assessment 1][banner]
 
-This repository can be forked for [**assessment 1**][a1] of [Frontend 3][fe3]
-at [**@CMDA**][cmda].
-
-## TODO
-
-*   [ ] [GitHub Pages](#github-pages)
-*   [ ] [Metadata](#metadata)
-*   [ ] [Workflow](#workflow)
-*   [ ] Replace this document in your fork with your own readme!
-
-## GitHub Pages
-
-Set up [GitHub Pages][pages] for this fork through the **Settings** pane.  Use
-the **Master branch** as its source.
-
-## Metadata
-
-Edit the **description** and **url** of your repository.  Click on edit above
-the green Clone or download button and fill in your correct information.
-
 ## Workflow
 
-How you go about your project is up to you other than that it must meet the
-given requirements.  The following steps may help to tackle this challenge
-though.
+At first I looked at the data available and look at some examples in the basic chart library. Most of them used .tsv, atleast the ones I looked at, so I decided to go with the languages.
 
 ###### Explore
 

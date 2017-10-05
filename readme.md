@@ -2,39 +2,29 @@
 
 ## Workflow
 
-At first I looked at the data available and look at some examples in the basic chart library. Most of them used .tsv, atleast the ones I looked at, so I decided to go with the languages.
+At first I looked at the data available and look at some examples in the basic chart library. Most of them used .tsv, atleast the ones I looked at, so I decided to go with the dataset of the languages.
 
-###### Explore
+##### Explore
 
-Explore the [data][].  Make sense of the rows, columns, and what they contain.
-Investigate interesting aspects and possible outcomes.  Figure out what type of
-chart you want and sketch your visualisation.
+Me exploring the code probably looked like a caveman finding a smartphone. I didn't know where to start and what to do. So i started by using an example from the basic chart library and start from there. I changed the data in the .tsv and repaired all the errors from there. Renaming al previous instances of data with the new ones. d.frequency became d.speakers and so on. 
 
-List the features needed to make your chart work and make sure they match our
-[rubric][].  For example, pie charts or donut charts often lack features needed
-to get good grades in the **application of subject matter** category.  You must
-compensate with other useful features to get a good grade in this case.
+After all that I quickly saw that the x-axis had all the languages messed up so I started looking for a solution there. Eventually increasing the total width of the svg to give the bars more breathing room and so did the languages.
 
-Pick the most enticing data and copy it to your fork.
+Then I just played arround with the code. What happens when I double this, or what happens if I remove this. Adding some style, not the most incredible stuff, but atleast something.
 
-###### Process
+##### Process
 
-Describe the purpose and background of your visualisation in your fork’s readme.
-Portray your data and list the d3 features.
+The purpose of this visualisation is to show wich languages are spoken the most and wich are not. Its  a pretty simple idea but not a pointless one. It gives you some interesting result. The languages in the dataset are not languages you hear alot so its fun to see wich language reigns supreme :). The chart uses the following d3 features:
 
-Start writing code.  Feel free to use example code found on the web but make
-sure to include correct citations.  Use inline code comments to describe
-anything of interest.  Don’t forget to document your process.
+- d3-dsv - parse tab-separated values
+- d3-format - number formatting
+- d3-scale - position encodings
+- d3-array - data processing
+- d3-axis - axes
 
-###### Review
+##### Review
 
-Finish up your readme and review your project.  Audit the code and docs.
-Evaluate whether the project matches our [rubric][] and make changes where
-needed.
-
-Include anything you’re particularly proud of and mention anything that was
-exceptionally hard to accomplish in your readme to make sure lecturers don’t
-miss it!  🌟
+In the end I am happy with what I accomplished, but I still find it rather difficult to use. I am rather new in the whole coding aspect. The last time I coded was project:web and I have not finished that yet so... However I do find it rather fun when things work out :), even if its not the greatest.
 
 [banner]: https://cdn.rawgit.com/cmda-fe3/logo/3b150735/banner-assessment-1.svg
 
@@ -49,3 +39,5 @@ miss it!  🌟
 [cmda]: https://github.com/cmda
 
 [pages]: https://pages.github.com
+
+Released under the GNU General Public License, version 3.

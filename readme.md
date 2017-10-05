@@ -4,7 +4,7 @@
 
 At first I looked at the data available and look at some examples in the basic chart library. Most of them used .tsv, atleast the ones I looked at, so I decided to go with the dataset of the languages.
 
-##### Explore
+#### Explore
 
 Me exploring the code probably looked like a caveman finding a smartphone. I didn't know where to start and what to do. So i started by using an example from the basic chart library and start from there. I changed the data in the .tsv and repaired all the errors from there. Renaming al previous instances of data with the new ones. d.frequency became d.speakers and so on. 
 
@@ -12,7 +12,7 @@ After all that I quickly saw that the x-axis had all the languages messed up so 
 
 Then I just played arround with the code. What happens when I double this, or what happens if I remove this. Adding some style, not the most incredible stuff, but atleast something.
 
-##### Process
+#### Process
 
 The purpose of this visualisation is to show wich languages are spoken the most and wich are not. Its  a pretty simple idea but not a pointless one. It gives you some interesting result. The languages in the dataset are not languages you hear alot so its fun to see wich language reigns supreme :). The chart uses the following d3 features:
 
@@ -22,7 +22,7 @@ The purpose of this visualisation is to show wich languages are spoken the most 
 - d3-array - data processing
 - d3-axis - axes
 
-##### Review
+#### Review
 
 In the end I am happy with what I accomplished, but I still find it rather difficult to use. I am rather new in the whole coding aspect. The last time I coded was project:web and I have not finished that yet so... However I do find it rather fun when things work out :), even if its not the greatest.
 
@@ -40,4 +40,5 @@ In the end I am happy with what I accomplished, but I still find it rather diffi
 
 [pages]: https://pages.github.com
 
+#### License
 Released under the GNU General Public License, version 3.

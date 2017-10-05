@@ -1,0 +1,18 @@
+body{
+	background-color: #ffccff;
+}
+
+h1{
+	font-family: Verdana;
+	text-align: center;
+	color: #ff66ff;
+}
+
+.bar {
+  fill: #ff99ff;
+}
+
+.bar:hover {
+  fill: white;
+  
+}
